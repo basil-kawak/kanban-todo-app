@@ -21,7 +21,7 @@
   "scripts": {
     "jump": "react-scripts start",
     "start": "node server/serve.js",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
