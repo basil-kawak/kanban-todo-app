@@ -31,7 +31,7 @@ are:
 
 * **Theme and framework**: Used Bootstrap 
   [React-Bootstrap](https://react-bootstrap.github.io/),
-  Installed the package using `yarn`.
+  Installed the package using `npm`.
 * **Routing**: Used [react-router](https://reacttraining.com/react-router/) to
   navigate to different pages.
 * **Sorting within a given board.** A user can sort by title and
