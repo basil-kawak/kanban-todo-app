@@ -2,6 +2,7 @@
   "name": "boardapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://basil-kawak.github.io/kanban-todo-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -19,6 +20,8 @@
     "validator": "^13.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "jump": "react-scripts start",
     "start": "node server/serve.js",
     "build": "CI= react-scripts build",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
